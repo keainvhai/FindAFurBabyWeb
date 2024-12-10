@@ -1,0 +1,125 @@
+.header {
+  display: flex;
+  /* background-color: hotpink; */
+  background-color: var(--header-background);
+  align-items: center;
+  /* height: 55px; */
+  justify-content: space-between;
+  /* padding: 0.3rem 0; */
+  position: relative;
+  z-index: 10;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.header__logo {
+  grid-area: header-logo;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.header__title {
+  /* grid-area: header-title; */
+  padding-left: 1rem;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 black;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+/* ul */
+.global-nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+}
+/* li  */
+.global-nav__item {
+  height: 50px;
+  align-items: center;
+}
+/* a */
+.global-nav__link {
+  display: flex;
+  padding: 0 1.4rem;
+  height: 100%;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  align-items: center;
+  position: relative;
+}
+
+.global-nav__link:hover {
+  color: blueviolet;
+}
+.global-nav__link:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: blueviolet;
+  bottom: -1px;
+  position: absolute;
+  left: 2rem;
+}
+
+.nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  display: none;
+  border: none;
+  outline: none;
+}
+.nav-btn img {
+  width: 30px;
+  height: 40px;
+}
+
+@media (max-width: 45rem) {
+  .nav-btn {
+    display: block;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .global-nav__list {
+    visibility: hidden;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 49px;
+    right: 0;
+    background-color: var(--header-background);
+    width: auto;
+    padding: 0;
+    opacity: 0;
+  }
+
+  .global-nav__list.active {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@media not (prefers-reduced-motion) {
+  .global-nav__list {
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease;
+  }
+}

@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.img-slider-container {
+  /* max-width: 100%; */
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+/* marke img to move */
+.img-container-index-0 {
+  transform: translateX(0%);
+}
+
+.img-container-index-1 {
+  transform: translateX(-100%);
+}
+
+.img-container-index-2 {
+  transform: translateX(-200%);
+}
+
+.img-slider-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.arrow-button {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  all: unset;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 1rem;
+  cursor: pointer;
+}
+.arrow-button-left {
+  left: 0;
+}
+.arrow-button-right {
+  right: 0;
+}
+
+.arrow-button img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.arrow-button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media not (prefers-reduced-motion) {
+  .arrow-button {
+    transition: background-color 100ms ease-in-out;
+  }
+
+  .img-slider-img {
+    transition: translate 0.5s ease-in-out;
+  }
+}

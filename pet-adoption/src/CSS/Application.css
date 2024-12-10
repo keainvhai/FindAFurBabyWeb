@@ -1,0 +1,93 @@
+form {
+  /* max-width: 600px; */
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  background-color: var(--card-background);
+  box-shadow: 0 4px 6px rgba(254, 35, 35, 0.1);
+}
+
+form h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  resize: none;
+}
+form input:focus,
+form select:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+form .error {
+  color: #d9534f;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+form button {
+  display: block;
+  width: 30%;
+  padding: 1rem;
+  background-color: var(--button-primary-background);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: var(--button-primary-hover);
+}
+
+.success-message {
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--card-background);
+}
+
+.success-message p {
+  color: var(--text-background);
+}
+
+.btn-outline {
+  /* margin-top: 1rem; */
+  width: 30%;
+  margin: 0.5rem;
+  padding: 1rem 0;
+  border: none;
+  color: #fff;
+  border-radius: 0;
+  background-color: var(--button-primary-background);
+}
+.btn-outline:hover {
+  background-color: var(--button-outline-hover-bg);
+}

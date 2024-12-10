@@ -1,0 +1,73 @@
+:root {
+  /* 默认主题变量（亮色模式） */
+  --background-color: rgb(242, 237, 242);
+  --header-background: hotpink;
+  --modal-background: #ffffff;
+  --card-background: white;
+  --form-background: #ffffff;
+  --text-color: rgba(0, 0, 0, 0.66);
+
+  --button-primary-background: hotpink;
+  --button-primary-hover: rgb(244, 23, 134);
+
+  --button-outline-background: blueviolet;
+  --button-outline-hover-bg: rgb(118, 3, 225);
+  --toggle-color: white;
+}
+
+body[data-theme="dark"] {
+  /* 暗色主题变量 */
+  --button-primary-background: rgba(0, 0, 0, 0.379);
+  --button-primary-hover: gray;
+
+  --button-outline-background: rgba(0, 0, 0, 0.379);
+  --button-outline-hover-bg: gray;
+
+  --background-color: rgb(99, 93, 99);
+  --header-background: rgb(41, 41, 41);
+  --modal-background: #2a2a2a;
+  --card-background: rgb(86, 83, 86);
+  --form-background: rgba(132, 126, 126, 0.87);
+  --text-color: rgba(208, 198, 198, 0.87);
+
+  --toggle-color: black;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  height: 100%;
+
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  /* min-width: 100vh; */
+  min-height: 100vh;
+  font-family: system-ui, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+}

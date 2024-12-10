@@ -1,0 +1,26 @@
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\dog1.jpg from myself
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\dog2.jpg from myself
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\dog3.jpg from myself
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\dog4.jpg from myself
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\kitty1.jpg from myself
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\kitty2.jpg from myself
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\kitty3.jpg from myself
+
+
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\jacko.jpg from myself
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\logo.jpg from myself
+
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\hamburger.png from  https://fonts.google.com/icons
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\light_modal.png from  https://fonts.google.com/icons
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\dark_modal.png from  https://fonts.google.com/icons
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\arrow-left.png from  https://fonts.google.com/icons
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\arrow-right.png from  https://fonts.google.com/icons
+
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\adopt.jpg from http://unsplash.com
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\animal1.jpg from http://unsplash.com
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\animal2.jpg from http://unsplash.com
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\animal3.jpg from http://unsplash.com
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\donate.jpg from http://unsplash.com
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\volunteer.jpg from http://unsplash.com
+D:\git_repository\student-bosinfo6150--keainvhai\final\pet-adoption\src\pic\kitty4.jpg from http://unsplash.com
+

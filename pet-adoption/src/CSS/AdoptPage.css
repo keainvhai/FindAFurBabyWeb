@@ -1,0 +1,14 @@
+h3 {
+  text-align: center;
+  color: var(--text-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-size: 1.5rem;
+}
+
+.adopt-container,
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
