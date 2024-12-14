@@ -30,7 +30,7 @@ function App() {
         {page === "#application" && <Application />}
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
